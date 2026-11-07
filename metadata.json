@@ -1,0 +1,6 @@
+{
+  "name": "토익 10초 벼락치기 - 초급 Part 5 & 스마트 오답노트",
+  "description": "초급자를 위한 10초 타임어택 토익 Part 5 실전 트레이닝 앱. 닉네임 설정, 10초 스피드런 타이머, 자동 오답노트 및 취약점 재시험 기능 지원.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
