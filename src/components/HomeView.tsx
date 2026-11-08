@@ -10,7 +10,7 @@ import {
   User,
   Check,
   RotateCcw,
-  Gamepad2,
+  GraduationCap,
   Shuffle
 } from 'lucide-react';
 
@@ -106,8 +106,8 @@ export const HomeView: React.FC<HomeViewProps> = ({
       {/* Mobile Hero & Student Name Input Card */}
       <div className="bg-gradient-to-br from-indigo-700 via-indigo-600 to-violet-700 rounded-3xl p-5 sm:p-6 text-white shadow-md relative overflow-hidden">
         <div className="flex items-center gap-2 mb-2 text-indigo-200 text-xs sm:text-sm font-bold">
-          <Gamepad2 className="w-4 h-4 text-amber-300" />
-          <span>TOEIC with Game</span>
+          <GraduationCap className="w-4 h-4 text-amber-300" />
+          <span>TOEIC Practice</span>
           <span>·</span>
           <span className="text-amber-300">문항당 10초 스피드런</span>
         </div>

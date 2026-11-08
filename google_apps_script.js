@@ -1,5 +1,5 @@
 /**
- * TOEIC with Game - 구글 스프레드시트 자동 연동 스크립트 (Code.gs)
+ * TOEIC Practice - 구글 스프레드시트 자동 연동 스크립트 (Code.gs)
  * 
  * [연동 대상 시트 열 구성 (총 6개 열)]:
  * 1. student name                 : 학습자(학생) 이름
@@ -137,7 +137,7 @@ function doGet(e) {
   return ContentService
     .createTextOutput(JSON.stringify({
       status: "ready",
-      message: "TOEIC with Game 구글 시트 연동 웹앱이 활성화되어 있습니다.",
+      message: "TOEIC Practice 구글 시트 연동 웹앱이 활성화되어 있습니다.",
       columns: [
         "student name",
         "total study time",

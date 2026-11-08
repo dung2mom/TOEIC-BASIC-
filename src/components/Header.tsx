@@ -1,5 +1,5 @@
 import React from 'react';
-import { Volume2, VolumeX, User, BookOpen, PenTool, Award, Sparkles, Gamepad2 } from 'lucide-react';
+import { Volume2, VolumeX, User, BookOpen, PenTool, Award, Sparkles, GraduationCap } from 'lucide-react';
 import { soundManager } from '../utils/sound';
 
 interface HeaderProps {
@@ -37,11 +37,11 @@ export const Header: React.FC<HeaderProps> = ({
           className="flex items-center gap-2 text-left shrink-0 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 rounded-xl py-1 px-1 cursor-pointer"
         >
           <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-tr from-indigo-600 to-violet-600 flex items-center justify-center text-white shadow-xs font-black text-sm tracking-tighter group-hover:from-indigo-700 group-hover:to-violet-700 transition-colors">
-            <Gamepad2 className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
+            <GraduationCap className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
           </div>
           <div className="flex flex-col">
             <span className="text-base sm:text-lg font-black tracking-tight text-slate-900 whitespace-nowrap">
-              TOEIC with Game
+              TOEIC Practice
             </span>
             <span className="text-[10px] text-indigo-600 font-bold -mt-1 hidden sm:block">
               초급 Part 5 10초 스피드런
